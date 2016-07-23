@@ -1,0 +1,22 @@
+{
+  "name": "browserifydemo",
+  "version": "1.0.0",
+  "description": "a demo of browserify and watchify",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify app.js -o bundle.js",
+    "watch": "watchify app.js -o bundle.js"
+  },
+  "keywords": [
+    "browserify"
+  ],
+  "author": "Lenny Peters",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
